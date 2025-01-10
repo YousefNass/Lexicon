@@ -1,4 +1,8 @@
 node
 {
-    docker compose up -d --build .
+    #Clean
+    sh 'docker compose down -v'
+    
+    #Build
+    sh 'docker compose up -d --build'
 }
