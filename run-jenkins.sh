@@ -1,7 +1,7 @@
 #!/bin/bash
 
 git add .
-git commit -m "starting jenkins"]
+git commit -m "starting jenkins"
 git push origin main
 
 JENKINS_URL=""
