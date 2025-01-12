@@ -8,4 +8,4 @@ IT-Based dictionary web application lookup
 
 ## [IMPORTANT]
 
-### Add sudo usermod -aG docker jenkins inorder to interact with docker commands in jenkins!!
+### Add ```sudo usermod -aG docker jenkins``` inorder to interact with docker commands in jenkins!!
