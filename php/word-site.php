@@ -61,7 +61,7 @@ try {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LexicoMOP</title>
+    <title>Lexicon</title>
     <!-- Favicon -->
     <link rel="icon" type="image/jpeg" href="https://i.ibb.co/jk7YtJc/lexicon.jpg">
     <!-- Bootstrap CSS -->
