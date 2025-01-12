@@ -10,5 +10,5 @@ node
     sh 'ls -la Lexicon'
 
     //Build
-    sh 'docker compose up -d docker-compose.yml'
+    sh 'docker ps -a'
 }
