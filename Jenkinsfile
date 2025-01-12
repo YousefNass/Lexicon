@@ -4,11 +4,11 @@ node
     sh 'rm -rf Lexicon'
 
     //Pull
-    sh 'git clone https://github.com/YousefNass/Lexicon.git && cd Lexicon'
+    sh 'git clone https://github.com/YousefNass/Lexicon.git'
 
     //CheckDirectory
     sh 'ls -la Lexicon'
 
-    //Build
-    sh 'docker compose version'
+    //Clean and Build
+    sh 'cd Lexicon && docker compose down && docker compose up -d'
 }
