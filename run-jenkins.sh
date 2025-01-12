@@ -4,8 +4,8 @@ git add .
 git commit -m "starting jenkins"
 git push origin main
 
-JENKINS_URL=""
-JENKINS_JOB=""
-JENKINS_TOKEN=""
+JENKINS_URL="http://localhost:8080/"
+JENKINS_JOB="lexicon-job"
+JENKINS_TOKEN="testAuth"
 
 curl -X POST "http://${JENKINS_URL}/job/${JENKINS_JOB}/build?token=${JENKINS_TOKEN}"
