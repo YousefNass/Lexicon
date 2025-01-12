@@ -8,5 +8,5 @@ node
 
 
     //Build
-    sh 'docker compose up -d .'
+    sh 'docker image ls'
 }
