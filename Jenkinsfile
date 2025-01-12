@@ -1,7 +1,7 @@
 node
 {
-    //Clean Repo
-    sh 'rm Lexicon'
+    //Clean LocalRepo
+    sh 'rm -rf Lexicon'
     //Pull
     sh 'git clone https://github.com/YousefNass/Lexicon.git && cd Lexicon && git pull origin main'
     //Clean
