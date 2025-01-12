@@ -1,6 +1,6 @@
 <?php
 // Database configuration
-$host = 'localhost';
+$host = 'sqldb';
 $dbname = 'dictionary_db';
 $user = 'root';
 $password = 'password'; // Use your MySQL password here
