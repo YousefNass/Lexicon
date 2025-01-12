@@ -7,6 +7,9 @@ node
     sh 'git clone https://github.com/YousefNass/Lexicon.git && cd Lexicon && git pull origin main'
 
 
+    //Clean
+    sh 'docker compose down'
+
     //Build
-    sh 'docker image ls'
+    sh 'docker compose up -d'
 }
