@@ -1,5 +1,7 @@
 node
 {
+    //Pull
+    sh 'git pull origin main'
     //Clean
     sh 'docker compose down'
     
