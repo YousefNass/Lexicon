@@ -1,0 +1,24 @@
+services:
+  l3mp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./php:/var/www/html
+    ports:
+      - "80:80"
+    depends_on:
+      - sqldb
+  sqldb:
+    image: mysql
+    restart: always
+# Bind mounts will break on second run better to use volumes
+    volumes:
+      - mysql:/var/lib/mysql
+      - ./sql:/docker-entrypoint-initdb.d
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+
+volumes:
+ mysql:
+ 
