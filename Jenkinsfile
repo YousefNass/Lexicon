@@ -10,5 +10,5 @@ node
     sh 'ls -la Lexicon'
 
     //Build
-    sh 'docker ps -a'
+    sh 'docker compose config'
 }
