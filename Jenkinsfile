@@ -1,7 +1,7 @@
 node
 {
     //Pull
-    sh 'git pull origin main'
+    sh 'git pull https://github.com/YousefNass/Lexicon'
     //Clean
     sh 'docker compose down'
     
