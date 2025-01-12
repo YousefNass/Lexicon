@@ -8,4 +8,4 @@ JENKINS_URL="http://localhost:8080/"
 JENKINS_JOB="lexicon-job"
 JENKINS_TOKEN="testAuth"
 
-curl -X POST "${JENKINS_URL}/job/${JENKINS_JOB}/build?token=${JENKINS_TOKEN}"
+curl -X POST ${weezo:kfG221174} "${JENKINS_URL}/job/${JENKINS_JOB}/build?token=${JENKINS_TOKEN}"
