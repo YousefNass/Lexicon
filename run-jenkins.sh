@@ -6,6 +6,6 @@ git push origin main
 
 JENKINS_URL="http://localhost:8080/"
 JENKINS_JOB="lexicon-job"
-JENKINS_TOKEN="testAuth"
+JENKINS_TOKEN="11148fe58bea485bec553fa283c049a271"
 
-curl -X POST ${weezo:kfG221174} "${JENKINS_URL}/job/${JENKINS_JOB}/build?token=${JENKINS_TOKEN}"
+curl -X POST "${JENKINS_URL}/job/${JENKINS_JOB}/build?token=${JENKINS_TOKEN}"
