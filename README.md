@@ -11,9 +11,9 @@ IT-Based dictionary web application lookup
 ### Run ```sudo usermod -aG docker jenkins``` then reboot, inorder to interact with docker commands in jenkins!!
 
 ### Pre-requiste: 
-## (1)Docker
-## (2)Jenkins
-## (3)Install Jenkins 'Build Authorized Token Root Plugin' within your jenkins server
+### (1)Docker
+### (2)Jenkins
+### (3)Install Jenkins 'Build Authorized Token Root Plugin' within your jenkins server
 
 - JobName:lexicon-job
 
