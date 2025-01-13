@@ -14,6 +14,8 @@ IT-Based dictionary web application lookup
 - (1)Docker
 - (2)Jenkins
 - (3)Install Jenkins 'Build Authorized Token Root Plugin' within your jenkins server
+---
+### Jenkins-Job Configuration :
 
 - JobName:lexicon-job
 
