@@ -258,7 +258,7 @@ try {
         </ul>
     </div>
     <div class="container">
-        <h1>LexiconCAT</h1>
+        <h1>Lexicon</h1>
         <form method="GET" action="" onsubmit="showLoader()">
             <div class="input-group">
                 <input type="text" name="word" id="wordInput" class="form-control" placeholder="Enter a word" value="<?php echo htmlspecialchars($word); ?>" oninput="resetState()">
