@@ -61,7 +61,7 @@ try {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lexicon v2</title>
+    <title>Lexicon</title>
     <!-- Favicon -->
     <link rel="icon" type="image/jpeg" href="https://i.ibb.co/jk7YtJc/lexicon.jpg">
     <!-- Bootstrap CSS -->
@@ -258,7 +258,7 @@ try {
         </ul>
     </div>
     <div class="container">
-        <h1>Lexicon</h1>
+        <h1>Lexicon v2</h1>
         <form method="GET" action="" onsubmit="showLoader()">
             <div class="input-group">
                 <input type="text" name="word" id="wordInput" class="form-control" placeholder="Enter a word" value="<?php echo htmlspecialchars($word); ?>" oninput="resetState()">
